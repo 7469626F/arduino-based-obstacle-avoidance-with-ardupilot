@@ -24,3 +24,5 @@ SERIAL2_BAUD = 115     (115200)
 
 # wiring
 
+the arduino only needs two data wires in order to comunicater with the flightcontroler.
+Arduino TX goes to RX and the arduino RX obviosly goes to the matching TX.
