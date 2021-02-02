@@ -9,13 +9,13 @@ An arduino can be used to supply these distances over mavlink. The origin of the
 
 # ardupilot setup
 
-Ardupilot needs to be setup in a way that it will use mavlink as a source fro the ranging data.
+Ardupilot needs to be setup in a way that it will use mavlink as a source for the ranging data.
 
 AVOID_ENABLE = 7     (all)
 
 PRX_TYPE = 2     (mavlink)
 
-I my case the arduino is hooked up to serial 2. Ay free serial port that has no will do the trick but avoid sbus specific serial ports since those may have a hardware inverter.
+I my case the arduino is hooked up to serial 2. Any free serial port will do the trick but avoid sbus specific serial ports since those may have a hardware inverter.
 The baud rate needs to match the baud rate that is defined in the arduino script.
 
 SERIAL2_PROTOCOL = 2     (mavlink2) 
