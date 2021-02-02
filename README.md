@@ -53,6 +53,17 @@ Change the mavlink message so that it matches the sensors direction and useful r
 
 step_4:
 
+Instal the mavlink library. this is the library I used: https://discuss.ardupilot.org/uploads/default/original/3X/b/a/ba1fb2beffca5c496694171abab8900ae0c8e257.zip
+
+step_5:
+
 Wire everything up and confirm that ardupilot receives the distances.
 
 # debug and testing
+
+
+
+# sources
+General mavlink information: https://mavlink.io/en/messages/common.html#DISTANCE_SENSOR
+Mavlink library : https://discuss.ardupilot.org/uploads/default/original/3X/b/a/ba1fb2beffca5c496694171abab8900ae0c8e257.zip
+The majority of the code is based on this project: https://discuss.ardupilot.org/t/avoidance-experiments-with-the-poc-and-benewake-tfmini/25277
