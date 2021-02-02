@@ -24,5 +24,10 @@ SERIAL2_BAUD = 115     (115200)
 
 # wiring
 
-the arduino only needs two data wires in order to comunicater with the flightcontroler.
-Arduino TX goes to RX and the arduino RX obviosly goes to the matching TX.
+The arduino only needs two data wires in order to communicate with the flightcontroller.
+
+Arduino TX goes to RX and the arduino RX obviously goes to the matching TX.
+
+The used mavlink libraries don't suport softserial, this means that the flight controller has to be conected to a hardware serial port. Take this in consideration when you want to use a sensor that also requires a hardware serial port.
+
+Al that's left now is a stable power supply for the arduino and a ground wire in between the arduino and the flight controller.
