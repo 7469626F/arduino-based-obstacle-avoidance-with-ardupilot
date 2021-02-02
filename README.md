@@ -30,4 +30,29 @@ Arduino TX goes to RX and the arduino RX obviously goes to the matching TX.
 
 The used mavlink libraries don't suport softserial, this means that the flight controller has to be conected to a hardware serial port. Take this in consideration when you want to use a sensor that also requires a hardware serial port.
 
-Al that's left now is a stable power supply for the arduino and a ground wire in between the arduino and the flight controller.
+Al that's left now is a stable power supply for the arduino and a ground wire inbetween the arduino and the flight controller.
+
+# arduino setup
+
+First of all the script needs to be edited in order to match the used arduino model, sensors and configuration. 
+
+step_1:
+
+Confirm that the sensor works with arduino. Hook the sensor up and test it out, most sensors come with a basic example script that tests the basic functions.
+This step makes integration and debugging a lot easier.
+
+step_2:
+
+Copy everything from the sensor example script to the relevant location in the blank script that is included with this project.
+
+Do this for all the sensors.
+
+step_3:
+
+Change the mavlink message so that it matches the sensors direction and useful range.
+
+step_4:
+
+Wire everything up and confirm that ardupilot receives the distances.
+
+
