@@ -1,6 +1,6 @@
 # arduino-based-obstacle-avoidance-with-ardupilot
 
-This project eplains how to set up an arduino with ardupilot so that it can send ranging data to ardupilot from any sensor that the arduino can read over mavlink.
+This project eplains how to set up an arduino with ardupilot so that it can send ranging data over mavlink to ardupilot from any sensor that the arduino can read.
 
 # basics
 
@@ -53,7 +53,7 @@ Change the mavlink message so that it matches the sensors direction and useful r
 
 step_4:
 
-Instal the mavlink library. this is the library I used: https://discuss.ardupilot.org/uploads/default/original/3X/b/a/ba1fb2beffca5c496694171abab8900ae0c8e257.zip
+Instal the mavlink library. This is the library I used: https://discuss.ardupilot.org/uploads/default/original/3X/b/a/ba1fb2beffca5c496694171abab8900ae0c8e257.zip
 
 step_5:
 
