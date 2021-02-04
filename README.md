@@ -38,7 +38,7 @@ First of all the script needs to be edited in order to match the used arduino mo
 
 step_1:
 
-Confirm that the sensor works with arduino. Hook the sensor up and test it out, most sensors come with a basic example script that tests the basic functions.
+Confirm that the sensor work with arduino. Hook the sensor up and test it out, most sensors come with an example script that tests the basic functions.
 This step makes integration and debugging a lot easier.
 
 step_2:
