@@ -22,6 +22,8 @@ SERIAL2_PROTOCOL = 2     (mavlink2)
 
 SERIAL2_BAUD = 115     (115200)
 
+More information about simple obstacle avoidance can be found here: https://ardupilot.org/copter/docs/common-simple-object-avoidance.html
+
 # wiring
 
 The arduino only needs two data wires in order to communicate with the flightcontroller.
@@ -61,7 +63,8 @@ Wire everything up and confirm that ardupilot receives the distances.
 
 # debug and testing
 
-
+Checking if the rangefinder works can be done by pressing control+F when you are on the data screen in mission planner. A pop up screen will appear and after you select proximity(bottom right) a radar like screen will appear. 
+The ranges will be displayed as red arcs in the corresponding sector.
 
 # sources
 General mavlink information: https://mavlink.io/en/messages/common.html#DISTANCE_SENSOR
