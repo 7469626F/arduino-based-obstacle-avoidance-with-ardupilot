@@ -24,7 +24,7 @@ SERIAL2_BAUD = 115     (115200)
 
 More information about simple obstacle avoidance can be found here: https://ardupilot.org/copter/docs/common-simple-object-avoidance.html
 
-# wirinigg
+# wiring
 
 The arduino only needs two data wires in order to communicate with the flightcontroller.
 
